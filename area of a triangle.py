@@ -1,0 +1,6 @@
+a=float(input('a='))
+b=float(input('b='))
+c=float(input('c='))
+s= float((a+b+c)/2)
+A=float((s*(s-a)*(s-b)*(s-c))**0.5)
+print('The area of the triangle is', A)

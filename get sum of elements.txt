@@ -1,0 +1,9 @@
+def get_sum(nums):
+    sum=0
+    for num in nums:
+        sum += num
+    return sum
+
+nums=[13,24,33,3,45]
+total=sum(nums)
+print('The total of elements:', total)

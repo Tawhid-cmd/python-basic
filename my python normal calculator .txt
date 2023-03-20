@@ -1,0 +1,20 @@
+base_number=float(input('Give me a number(x):'))
+power_number=float(input('Give me another number(y):'))
+result=base_number/power_number
+print(base_number,'/',power_number, result)
+print('The percentage of x/y is', result*100)
+
+result=base_number*power_number
+print(base_number,'*',power_number, result)
+
+result=base_number+power_number
+print(base_number,'+',power_number, result)
+
+result=base_number-power_number
+print(base_number,'-',power_number, result)
+
+result=base_number**power_number
+print('The answer of x to be power y is', result)
+
+result=base_number%power_number
+print('The remainder will be', result)

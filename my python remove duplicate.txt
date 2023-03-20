@@ -1,0 +1,4 @@
+a=[1,2,3,4,5,5,4,4]
+
+b=list(set(a))
+print('Unique number','of','a','=',b)

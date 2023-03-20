@@ -1,0 +1,4 @@
+base_number=float(input('Give me a number:'))    
+power_number=float(input('Give me another number:'))
+result= base_number+power_number
+print('Your result :', result)

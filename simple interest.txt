@@ -1,0 +1,7 @@
+p= float(input('Money you borrowed:'))
+r= float(input('Interest rate (per year):'))
+n=float(input('Overall duration'))
+
+#Calculates simple interest
+simple_interest = p*(r/100)*n
+print('Simple interest is', simple_interest)
